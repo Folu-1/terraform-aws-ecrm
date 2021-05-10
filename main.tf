@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "foo" {
-  name = "ecr module"
+  name = "terraform ecr module"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
