@@ -1,1 +1,1 @@
-# terraform-aws-ecr-module
+# terraform-aws-ecr
