@@ -1,8 +1,7 @@
-resource "aws_ecr_repository" "foo" {
-  name = "ecr module"
-  image_tag_mutability = "MUTABLE"
+module "ecr" {
 
-  image_scanning_configuration {
-    scan_on_push = true
-  }
+  source = "hazelops/ecr/aws"
+  version = "~> 1.0"
+  name = "folu"
+
 }
